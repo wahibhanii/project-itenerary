@@ -59,17 +59,15 @@ body{
 }
 .navbar li{
     display: inline;
-    /*border-right: 1px solid #FDD1F6;*/
     margin: 0;
     padding:11px 15px;
 }
 .navbar li:hover{
     display: inline;
-    border-right: 1px solid #3CECC4;
     background-color: #3CECC4;
     color:#0085BA;
     margin: 0;
-    padding:11px 12px;
+    padding:11px 15px;
 }
 .navbutton {
     border: 2px solid #FDD1F6;
