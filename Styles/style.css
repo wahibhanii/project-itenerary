@@ -1,0 +1,255 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+/* ----------------------------------------- fonts -------------------------------------*/
+/* latin */
+@font-face {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lobster'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v18/cycBf3mfbGkh66G5NhszPQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Quicksand Bold'), local('Quicksand-Bold'), url(https://fonts.gstatic.com/s/quicksand/v6/32nyIRHyCu6iqEka_hbKsugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+  /* latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quicksand Regular'), local('Quicksand-Regular'), url(https://fonts.gstatic.com/s/quicksand/v6/sKd0EMYPAh5PYCRKSryvW1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+  }
+
+/*----------------------------------- Body ------------------------------------------*/
+body{
+    background-image: url("../images/Traveling-Wallpaper-21.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------  Navigation Bar-------- ---------------------------*/
+.navbar{
+    /*background-color:rgba(255, 0, 93, 0.64);*/
+    background-color: rgba(0, 133, 186, 0.6);
+    color:#FC8D98;
+    font-size: 20px ;
+    text-transform: uppercase;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding:0;
+}
+.navbar ul{
+    list-style: none;
+    font-weight: bold;
+    margin: 0 40px;
+    padding:0 30px;
+}
+.navbar li{
+    display: inline;
+    /*border-right: 1px solid #FDD1F6;*/
+    margin: 0;
+    padding:11px 15px;
+}
+.navbar li:hover{
+    display: inline;
+    border-right: 1px solid #3CECC4;
+    background-color: #3CECC4;
+    color:#0085BA;
+    margin: 0;
+    padding:11px 12px;
+}
+.navbutton {
+    border: 2px solid #FDD1F6;
+    border-radius: 15px;
+    /*color: #FDD1F6 ;*/
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px 10px;
+}
+.navbutton:hover{
+    background-color: #0085BA;
+    border: 2px solid #0085BA;
+    color: #3CECC4;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+
+/*---------------------------------  Main Title--------------------------------------*/
+.maintitle{
+    height: 800px;
+    background-image: url("../images/cvrsnica_-_Vilinac_Bubalo_2016_272.jpg");
+    background-size: 100%;
+    background-position: top center;    
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+.maintitle h1{
+    margin: 120px 0 150px 0;
+    padding: 20px 0 20px 40px;
+    font-size: 90px;
+    text-shadow: 10px 10px #000000;
+    background-color: rgba(0, 0, 0, 0.41);
+    color: white;
+}
+.maintitle a, maintitle a:hover{  
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    margin:300px 0 0 20%;
+}
+
+
+/*----------------------------------------  Sections -------------------------------*/
+section{
+    height: 700px;
+    padding: 0; 
+    margin:0; 
+    color: white;
+    overflow: auto;
+}
+.section1{
+    background-image: url("../images/omohara-tokyo-japan_68824_990x742.jpg");
+    background-position: center center;
+    background-size: 100%;
+}
+.section1 h2{
+    font-size: 60px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin:12% 300px 60px 300px;
+    padding: 10px 0;
+    border-radius: 200px;
+}
+.section1 a, section1 a:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px;
+    margin-left: 40%;
+}
+
+.section2{
+    background-image: url("../images/malta-grand-harbor-valletta.jpg");
+    background-position: center center;
+    background-size: 100%;
+}
+.section2 h2{
+    font-size: 60px;
+    display: block;
+    text-align: right;
+    margin:12% 30% 20px 0;
+    padding: 10px 0;
+}
+.section2 a, section1 a:hover{  
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px;
+    margin-left: 55%;
+}
+
+
+.section3{
+    background-image: url("../images/1-chengdu-china-street-scene.jpg");
+    background-position: bottom center;
+    background-size: 100%;
+}
+.section3 h2{
+    font-size: 60px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 200px;
+}
+.section3 a, section1 a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center; 
+    margin: 17%0 0 40%;
+    padding: 10px;
+    display: inline-block;
+}
+
+.directbutton {
+    border: 2px solid #3CECC4;
+    border-radius: 15px;
+    /*color: #FDD1F6 ;*/
+}
+.directbutton:hover{
+    background-color: #0085BA;
+    border: 2px solid #0085BA;
+    border-radius: 15px;
+    color: #3CECC4;
+}
+
+
+/*------------------------------------  Footer -------------------------------------------*/
+footer{
+    background-color: #000000;
+    color:#94B19F;
+    height: 50px;
+    overflow: auto;
+}
+footer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 15px 30px;
+}
+
+/*------------------------------------------  Other ---------------------------*/
+.float-right{
+    display: block;
+    float: right;
+}
+.float-left{
+    display: block;
+    float: left;
+}
+.lobsterfont{
+    font-family: lobster;
+}
+.quicksandfont{
+    font-family: Quicksand;
+}
+.spacer{
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 40px solid rgba(39, 63, 88, 0.80);
+    border-top: 40px solid rgba(39, 63, 88, 0.80);
+    height: 250px;
+    text-align: center;
+    color: #E6FF96;
+    font-size: 60px;   
+    overflow: auto;
+}
+.spacer p{
+    text-align: center;
+    /*background-color: rgba(255, 0, 93, 0.41); */
+    color: #331318;
+    font-size: 60px; 
+    margin: 100px 0 0 0;
+}
+
+
